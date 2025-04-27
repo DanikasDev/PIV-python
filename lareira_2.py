@@ -19,7 +19,7 @@ for lareira_corrent in ListaLareiras:
         lareira_corrent.acender()
     elif random.randint(0,1)==0:
         lareira_corrent.apagar()
-    C=C+1
+    C+=1
     Results.append({C: str(lareira_corrent)})
 
 
